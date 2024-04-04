@@ -455,5 +455,21 @@ intents = {
         "Gathering details about [person/thing] from Wikipedia.",
         "I'll fetch information about [person/thing] from Wikipedia."
     ]
+},
+"set_alarm": {
+    "patterns": [
+        "set an alarm for",
+        "wake me up at",
+        "schedule an alarm for",
+        "set a reminder for"
+    ],
+    "responses": [
+        "Alarm set for [time].",
+        "I've scheduled an alarm for [time].",
+        "Your alarm is set for [time].",
+        "Got it. I'll remind you at [time].",
+        "Alarm scheduled for [time]."
+    ]
 }
+
 }
