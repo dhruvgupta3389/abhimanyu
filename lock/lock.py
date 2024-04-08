@@ -23,7 +23,7 @@ def check(id):
         speak.speak("we have spical message for you want hear that ")
         a=input("yes or no")
         if a.lower()=="yes":
-            speak.speak("i love u gungun i know i already told many time but what will i do i never any idea that u love me or this is fustrating just by this i ask u do u love me or not")
+            
             
         elif a.lower()=="no":
             pass
