@@ -35,16 +35,16 @@ Jarvies is an intelligent virtual assistant designed to help you with a variety 
 ### Installation
 
 1. **Clone the Repository**  
-   ```bash
-   git clone https://github.com/yourusername/jarvies.git
-   cd jarvies
+    ```bash
+    git clone https://github.com/yourusername/jarvies.git](https://github.com/dhruvgupta3389/jarves-backend.git
+    cd jarvies
 2. **Install Dependencies**
-   ```bash
-   pip install -r requirements.txt
+    ```bash
+    pip install -r requirements.txt
 3. **Download NLTK Data**
- ```bash
- python
- import nltk
- nltk.download('wordnet')
- nltk.download('punkt')
+    ```bash
+   python
+   import nltk
+   nltk.download('wordnet')
+   nltk.download('punkt')
 
