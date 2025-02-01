@@ -36,7 +36,7 @@ Jarvies is an intelligent virtual assistant designed to help you with a variety 
 
 1. **Clone the Repository**  
     ```bash
-    git clone https://github.com/yourusername/jarvies.git](https://github.com/dhruvgupta3389/jarves-backend.git
+    https://github.com/dhruvgupta3389/jarves-backend.git
     cd jarvies
 2. **Install Dependencies**
     ```bash
