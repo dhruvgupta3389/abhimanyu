@@ -43,8 +43,8 @@ Jarvies is an intelligent virtual assistant designed to help you with a variety 
    pip install -r requirements.txt
 3. **Download NLTK Data**
  ```bash
-    python
-    import nltk
-    nltk.download('wordnet')
-    nltk.download('punkt')
+ python
+ import nltk
+ nltk.download('wordnet')
+ nltk.download('punkt')
 
