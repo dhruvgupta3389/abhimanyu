@@ -1426,5 +1426,12 @@
         "maxmax_confidence": "",
         "min_confidence": "",
         "AI": "Goodbye!"
+    },
+    {
+        "User": "exit",
+        "intent": "",
+        "maxmax_confidence": "",
+        "min_confidence": "",
+        "AI": "Goodbye!"
     }
 ]

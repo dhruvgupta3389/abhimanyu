@@ -8,12 +8,12 @@ from gensim.models import Word2Vec
 import random
 import features.greed 
 import pickle
-from face.face import face
+# from face.face import face
 import json
 from speech1.speech import speechrecognition
 import webbrowser
 from features.internet import check_internet as internet
-from speak import speak
+from speak.speak import speak
 
 
 class ChatBotTrainer:
@@ -118,17 +118,17 @@ class ChatBot:
                 logs = json.load(json_file)
         except FileNotFoundError:
             logs = []
-        speak("starting security check")
-        name , id= face()
-        if id ==0:
-            speak("you are not authorize")
-            exit()
-        if id ==1:
-            features.greed.greedf()
-            speak("welcome Ms gungun")
-        if id ==2:
-            features.greed.greedm()
-            speak("welcome Mr dhruv")
+        # speak("starting security check")
+        # name , id= face()
+        # if id ==0:
+        #     speak("you are not authorize")
+        #     exit()
+        # if id ==1:
+        #     features.greed.greedf()
+        #     speak("welcome Ms gungun")
+        # if id ==2:
+        #     features.greed.greedm()
+        #     speak("welcome Mr dhruv")
         speak("Hi there! How can I assist you today?")
         while True:
             user_input = speechrecognition()  # Moved this line up to prevent NameError
@@ -139,7 +139,7 @@ class ChatBot:
                 "min_confidence": "",
                 "AI": ""
             }
-            
+            user_input=str(user_input)
             if user_input.lower() == 'exit' or user_input.lower() == 'bye':
                 speak("Goodbye!")
                 log["AI"] = "Goodbye!"
