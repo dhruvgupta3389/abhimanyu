@@ -36,7 +36,7 @@ Abhimanyu is an intelligent virtual assistant designed to help you with a variet
 
 1. **Clone the Repository**  
     ```bash
-    https://github.com/dhruvgupta3389/jarves-backend.git
+    https://github.com/dhruvgupta3389/abhimanyu.git
     cd jarves-backend
 2. **Install Dependencies**
     ```bash
