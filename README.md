@@ -1,6 +1,6 @@
-# Jarvies: Your All-in-One Virtual Assistant
+# Abhimanyu: Your All-in-One Virtual Assistant
 
-Jarvies is an intelligent virtual assistant designed to help you with a variety of tasks ranging from natural language processing and facial recognition to speech recognition and automated GUI interactions. Built using modern machine learning libraries and Python modules, Jarvies brings together several functionalities to create an engaging and responsive assistant.
+Abhimanyu is an intelligent virtual assistant designed to help you with a variety of tasks ranging from natural language processing and facial recognition to speech recognition and automated GUI interactions. Built using modern machine learning libraries and Python modules, Abhimanyu brings together several functionalities to create an engaging and responsive assistant.
 
 ## Features
 
